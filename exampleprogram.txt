@@ -1,0 +1,12 @@
+[public] [static] var [varName] = [dataType]:[value]
+dataTypes: bool, str, int, double (float), list/array, dict, vector2, vector3
+
+static means dataType is unchangeable
+public means anything can access it
+if not stated, assume not static/public
+
+[public] [static] obj [objName] {
+  property = [dataType]:[value],
+  etc.
+}
+
